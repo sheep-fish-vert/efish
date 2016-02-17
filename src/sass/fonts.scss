@@ -18,6 +18,10 @@
 //  example -> @include font-face('PFDinTextPro', 'PFDinTextPro-Bold', 700, italic);
 
 @include font-face('slick');
+@include font-face('OpenSans', 'OpenSans-Bold', 700);
+@include font-face('OpenSans', 'OpenSans-Light', 300);
+@include font-face('OpenSans', 'OpenSans-Semibold', 600);
+@include font-face('OpenSans', 'OpenSans-Regular', 400);
 
 
 /* /fonts*/
