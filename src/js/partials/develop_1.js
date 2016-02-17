@@ -58,6 +58,8 @@ $(document).ready(function(){
 
 $(window).load(function(){
 
+    scrollUp('.next-section-button', '.second-block');
+
 });
 
 $(window).resize(function(){

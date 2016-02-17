@@ -15,14 +15,42 @@
 }
 @media screen and (max-width: 992px){
 
+    /* top-block */
+
+        .top-block{
+
+            .paralax-background{display: none;}
+
+            .top-block-content{margin:0 auto;text-align: center;}
+        }
+
+    /* /top-block */
+
 }
 @media screen and (max-width: 767px){
+
+    /* top-block */
+
+        .top-block{
+            .top-block-content{padding: 75px 0 100px 0;}
+            .top-block-title{font-size: 36px;line-height: 46px;}
+        }
+
+    /* /top-block */
 
 }
 @media screen and (max-width: 666px){
 
 }
 @media screen and (max-width: 479px){
+
+    /* top-block */
+
+        .top-block{
+            .top-block-title{font-size: 30px;line-height: 40px;}
+        }
+
+    /* /top-block */
 
 }
 @media screen and (max-width: 320px){
