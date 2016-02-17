@@ -3,29 +3,32 @@
     <div id="call_success">
         <div class="call-success">
              <div class="call_success">
-                 <div class="call-title">Спасибо за заявку!</div>
-                 <div class="call-subtitle">Мы свяжемся с Вами в ближайшее время</div>
+                 <div class="call-title">
+                     <img src="images/ty-succ.png" alt="">
+                     <h3>Спасибо за заявку!</h3>
+                 </div>
+                 <div class="call-subtitle">Наш менеджер свяжется с Вами в течении 30 минут.</div>
              </div>
         </div>
     </div>
 
     <div id="call-popup">
+        <div class="call-title">
+            <img src="images/in.png" alt="">
+        </div>
         <form action="ajax.php" name="" class="contact-form">
-            <div class="contact-form-title">
-                <h5>Lorem ipsum dolor.</h5>
-            </div>
             <div class="contact-form-row cfix">
                 <div class="contact-form-item">
                     <div class="contact-form-item-input form_row">
                         <div class="form_input">
-                            <input type="text" name="contact_name" required="required" value="" placeholder="Ваше Имя">
+                            <input type="email" name="contact_email" required="required" value="" placeholder="EMAIL">
                         </div>
                     </div>
                 </div>
                 <div class="contact-form-item">
                     <div class="contact-form-item-input form_row">
                         <div class="form_input">
-                            <input type="text" name="contact_tel" value="" required="required" placeholder="Ваш номер" class="tel-mask">
+                            <input type="password" name="contact_password" required="required" placeholder="ПАРОЛЬ">
                         </div>
                     </div>
                 </div>
@@ -33,11 +36,26 @@
             <div class="contact-form-row cfix">
                 <div class="contact-form-item">
                     <button type="submit" class="contact-submit">
-                        <span>Отправить заявку</span>
+                        <span>войти</span>
                     </button>
                 </div>
             </div>
         </form>
+        <div class="replace-block cfix">
+            <a href="">Забыли пароль?</a>
+            <a href="">Зарегистрироваться</a>
+        </div>
+        <div class="go-inside">
+            <div class="title-box">Войти через аккаунт</div>
+            <div class="buttons-bot">
+                <div class="button-g">
+                    <img src="images/gi.png" alt="">
+                </div>
+                <div class="button-f">
+                    <img src="images/fi.png" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 
 </div>

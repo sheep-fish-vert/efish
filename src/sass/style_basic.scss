@@ -39,8 +39,4 @@ a[href^="http"]:empty::before {
   content: attr(href);
 }
 
-a[href] {
-  text-decoration: underline;
-  &:hover,&:active{text-decoration: none;}
-}
 /*End Layout*/
