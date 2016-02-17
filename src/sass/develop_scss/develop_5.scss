@@ -1,14 +1,16 @@
-a.button{font:600 14px/14px 'Opensans'; display:inline-block; color:#fff; background-color: #768299; border-radius: 2px; text-transform: uppercase; text-align: center; width:186px; height: 46px; text-decoration: none;
+a.button{font:600 14px/14px 'Opensans'; display:inline-block; color:#fff; background-color: #768299; border-radius: 5px; text-transform: uppercase; text-align: center; width:186px; height: 46px; text-decoration: none; letter-spacing: 0.4px;     padding-top: 16px;
     &:hover{background-color: #8997b3;}
 }
 /*second-block*/
     .second-block{
         .second-wrap{
-            .second-align{ text-align: center;
-                h2{font:300 46px/46px 'Opensans';  color: #3d4148;
-                    b{font:700 46px/46px 'Opensans';}
+            .second-align{ text-align: center; padding: 95px 20px 60px;
+                h2{font:300 46px/57px 'Opensans';  color: #3d4148;     padding-bottom: 19px;
+                    b{font:700 46px/57px 'Opensans';}
                 }
-                p{font:300 18px/18px 'Opensans';  color: #3d4148;}
+                p{font:300 18px/25px 'Opensans';  color: #3d4148;
+                }
+                a{margin-top: 38px;margin-bottom: 59px;}
             }
         }
     }
@@ -19,16 +21,19 @@ a.button{font:600 14px/14px 'Opensans'; display:inline-block; color:#fff; backgr
             .third-align{
                 .slider{
                     .slide{ width:100%;
-                        .img-block{float: left; width: 50%;position: relative;
+                        .img-block{float: left; width: 50%;position: relative;     padding-top: 50px;    padding-left: 59px;
                             .img{position: relative;
-                                .coma{background-image: url(../images/coma.png);background-position: center center; background-repeat: no-repeat; height: 92px; width: 92px; top:50px; right:50px; position: absolute; }
+                                .coma{background-image: url(../images/coma.png);background-position: center center; background-repeat: no-repeat; height: 92px; width: 92px; top:29px; right:101px; position: absolute; }
                             }
                         }
-                        .text-block{float:left;width: 50%;
-                            h3{font:300 46px/46px 'Opensans';  color: #3d4148;
-                                b{font:700 46px/46px 'Opensans';}
+                        .text-block{float:left;max-width: 400px; width:100%;padding-top: 99px;padding-left: 16px;
+                            h3{font:300 46px/57px 'Opensans';  color: #3d4148; padding-bottom: 14px;
+                                b{font:700 46px/57px 'Opensans';}
                             }
-                            p{font:300 18px/18px 'Opensans';  color: #3d4148;}
+                            p{font:300 18px/25px 'Opensans';  color: #3d4148;
+                                span{font:600 18px/18px 'Opensans';}
+                            }
+                            a{margin-top: 38px; width: 173px;}
 
                         }
                     }
@@ -40,12 +45,13 @@ a.button{font:600 14px/14px 'Opensans'; display:inline-block; color:#fff; backgr
 /*four-block*/
     .four-block{
         .four-wrap{
-            .four-align{position: relative;
-                h3{font:300 46px/46px 'Opensans';  color: #3d4148;
-                    b{font:700 46px/46px 'Opensans';}
+            .four-align{position: relative;     padding: 96px 0 188px 0;
+                h3{font:300 46px/57px 'Opensans';  color: #3d4148; max-width: 491px; width: 100%;     padding-bottom: 17px;
+                    b{font:700 46px/57px 'Opensans';}
                 }
-                p{font:300 18px/18px 'Opensans';  color: #3d4148;}
-                .img{position: absolute;bottom: 0; right:0;}
+                p{font:300 18px/25px 'Opensans';  color: #3d4148;}
+                .img{position: absolute;bottom: 0; right:30px;}
+                a{margin-top: 38px; width: 173px;}
             }
         }
     }
