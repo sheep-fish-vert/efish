@@ -4,17 +4,20 @@
         .mbox{position: static;}
 
         .paralax-background{position: absolute;top:0;right:0;bottom:0;left:0;text-align: center;z-index: 0;overflow: hidden;
-            &>div{position: absolute;right: 0;left: 0;
+            &>div{position: absolute;right: 0;left: 0;opacity: 0;
                 img{position: relative;margin-right:-24%;}
-                &:nth-child(1){
+                &:nth-child(1){transition:transform 300ms ease, opacity 300ms ease 300ms;
                     img{top:29px;}
                 }
-                &:nth-child(2){
+                &:nth-child(2){transition:transform 300ms ease, opacity 300ms ease 500ms;
                     img{top: 210px;}
                 }
-                &:nth-child(3){
+                &:nth-child(3){transition:transform 300ms ease, opacity 300ms ease 700ms;
                     img{top:112px;}
                 }
+            }
+            &.show{
+                &>div{opacity:1;}
             }
         }
 
