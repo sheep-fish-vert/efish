@@ -38,6 +38,19 @@
 
     /* /top-block */
 
+    /* blue-block */
+
+        .blue-block{padding: 93px 0 50px 0;
+            .blue-block-title{font-size: 36px;line-height: 46px;}
+            .blue-block-items{flex-wrap:wrap;
+                .blue-block-item{width: 50%;
+                    .blue-block-item-text{margin-bottom: 50px;}
+                }
+            }
+        }
+
+    /* /blue-block */
+
 }
 @media screen and (max-width: 666px){
 
@@ -51,6 +64,17 @@
         }
 
     /* /top-block */
+
+    /* blue-block */
+
+        .blue-block{padding: 53px 0 25px 0;
+            .blue-block-title{font-size: 30px;line-height: 40px;}
+            .blue-block-items{
+                .blue-block-item{width: 100%;}
+            }
+        }
+
+    /* /blue-block */
 
 }
 @media screen and (max-width: 320px){
