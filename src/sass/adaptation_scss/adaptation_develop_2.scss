@@ -16,11 +16,17 @@
 @media screen and (max-width: 992px){
 
 }
-@media screen and (max-width: 767px){
-
+@media screen and (max-width: 768px){
 }
 @media screen and (max-width: 666px){
 
+}
+@media screen and (max-width: 520px){
+    /*modal*/
+    .fancybox-close{top: -35px;right: -6px;}
+    #call-popup,#call-popup-disable{width: auto;}
+    #call-popup .contact-form, #call-popup .replace-block,#call-popup .go-inside, #call-popup-disable .contact-form{max-width: 280px;padding-left: 10px;padding-right: 10px;}
+    /*/modal*/
 }
 @media screen and (max-width: 479px){
 

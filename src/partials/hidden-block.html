@@ -1,5 +1,7 @@
 <div class="hidden-block">
-
+    <a href="#call_success" class="fancybox">call_success</a>
+    <a href="#call-popup" class="fancybox">call-popup</a>
+    <a href="#call-popup-disable" class="fancybox">call-popup-disable</a>
     <div id="call_success">
         <div class="call-success">
              <div class="call_success">
@@ -35,27 +37,72 @@
             </div>
             <div class="contact-form-row cfix">
                 <div class="contact-form-item">
-                    <button type="submit" class="contact-submit">
+                    <button type="submit" class="contact-submit blue_btn">
                         <span>войти</span>
                     </button>
                 </div>
             </div>
         </form>
         <div class="replace-block cfix">
-            <a href="">Забыли пароль?</a>
-            <a href="">Зарегистрироваться</a>
+            <a href="#">Забыли пароль?</a>
+            <a href="#">Зарегистрироваться</a>
         </div>
         <div class="go-inside">
-            <div class="title-box">Войти через аккаунт</div>
-            <div class="buttons-bot">
+            <div class="title-box"><span>Войти через аккаунт</span></div>
+            <div class="buttons-bot cfix">
                 <div class="button-g">
-                    <img src="images/gi.png" alt="">
+                    <a href="#">
+                        <img src="images/gi.png" alt="">
+                    </a>
                 </div>
                 <div class="button-f">
-                    <img src="images/fi.png" alt="">
+                    <a href="#">
+                        <img src="images/fi.png" alt="">
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 
+    <div id="call-popup-disable" class="call-popup-disable">
+        <div class="call-title">
+            <img src="images/call-popup-disable.png" alt="">
+            <p>Этот раздел пока недоступен.</p>
+            <p>Но мы уже готовы Вам помочь!</p>
+        </div>
+        <div class="call-subtitle">
+            <p>Оставьте свои данные и мы обязательно с Вами свяжемся!</p>
+        </div>
+        <form action="ajax.php" name="" class="contact-form">
+            <div class="contact-form-row cfix">
+                <div class="contact-form-item">
+                    <div class="contact-form-item-input form_row">
+                        <div class="form_input">
+                            <input type="text" name="contact_name" required="required" value="" placeholder="ВАШЕ ИМЯ">
+                            <span class="error-name">Представьтесь, пожалуйста</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-item">
+                    <div class="contact-form-item-input form_row">
+                        <div class="form_input">
+                            <input type="email" name="contact_email" required="required" value="" placeholder="EMAIL">
+                            <span class="error-name">Напишите e-mail, пожалуйста</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-row cfix">
+                <div class="contact-form-item">
+                    <button type="submit" class="contact-submit blue_btn">
+                        <span>Узнать о e.fish первым</span>
+                    </button>
+                </div>
+            </div>
+
+        </form>
+        <div class="bottom-text">
+            Время ответа: 30 минут
+        </div>
+    </div>
 </div>
