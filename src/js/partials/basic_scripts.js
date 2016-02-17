@@ -120,6 +120,7 @@ function headeButer(menuMobile,toggleMenu){
 
 /* DOCUMENT READY  */
 $(document).ready(function() {
+    headeButer($('.menu-mobile'),$('.item-wrap'));
     //oneHeightItems();
     $('.footer_placeholder').height($('.footer').outerHeight());
 
@@ -128,6 +129,8 @@ $(document).ready(function() {
 });
 
 $(window).resize(function() {
-
+    if($(window).width()>1024){
+        $('.item-wrap').removeAttr('style');
+    }
     $('.footer_placeholder').height($('.footer').outerHeight());
 });
