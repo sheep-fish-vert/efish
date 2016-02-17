@@ -1,0 +1,18 @@
+/*header*/
+header{background-color: #fff;
+    .logo{position: absolute;top: 50%;left: 0;transform: translateY(-50%);}
+    .navigation{float: right;
+        .navigation-wrap{display: table;width: 100%;min-height: 60px;font-size: 13px;
+            .item{display: table-cell;vertical-align: middle;
+                a{text-decoration: none;text-transform: uppercase;color: #3d4148;}
+            }
+            .item-button{display: table-cell;vertical-align: middle;}
+            .item-button{
+                .regist{display: none;
+                    &.active{display: block;}
+                }
+            }
+        }
+    }
+}
+/*/header*/
