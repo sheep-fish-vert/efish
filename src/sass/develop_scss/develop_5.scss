@@ -1,6 +1,7 @@
 a.button{font:600 14px/14px 'Opensans'; display:inline-block; color:#fff; background-color: #768299; border-radius: 5px; text-transform: uppercase; text-align: center; width:186px; height: 46px; text-decoration: none; letter-spacing: 0.4px;     padding-top: 16px;
     &:hover{background-color: #8997b3;}
 }
+
 /*second-block*/
     .second-block{
         .second-wrap{
@@ -14,6 +15,29 @@ a.button{font:600 14px/14px 'Opensans'; display:inline-block; color:#fff; backgr
             }
         }
     }
+    @media screen and (max-width: 900px) {
+        .second-block{
+            .second-wrap{
+                .second-align{    padding: 30px 0px 60px;
+                    h2{font:300 30px/37px 'Opensans';
+                        b{font:700 30px/37px 'Opensans';}
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .second-block{
+            .second-wrap{
+                .second-align{
+                    h2{font:300 20px/27px 'Opensans';
+                        b{font:700 20px/27px 'Opensans';}
+                    }
+                    p{font:300 14px/19px 'Opensans';  color: #3d4148;    }
+                }
+            }
+        }
+    }
 /*END second-block*/
 /*third-block*/
     .third-block{
@@ -23,7 +47,7 @@ a.button{font:600 14px/14px 'Opensans'; display:inline-block; color:#fff; backgr
                     .slide{ width:100%;
                         .img-block{float: left; width: 50%;position: relative;     padding-top: 50px;    padding-left: 59px;
                             .img{position: relative;
-                                .coma{background-image: url(../images/coma.png);background-position: center center; background-repeat: no-repeat; height: 92px; width: 92px; top:29px; right:101px; position: absolute; }
+                                .coma{background-image: url(../images/coma.png);background-position: center center; background-repeat: no-repeat; height: 92px; width: 92px; top:29px; right:19%; position: absolute; background-size: cover; }
                             }
                         }
                         .text-block{float:left;max-width: 400px; width:100%;padding-top: 99px;padding-left: 16px;
@@ -34,7 +58,89 @@ a.button{font:600 14px/14px 'Opensans'; display:inline-block; color:#fff; backgr
                                 span{font:600 18px/18px 'Opensans';}
                             }
                             a{margin-top: 38px; width: 173px;}
-
+                        }
+                    }
+                }
+                .slick-dots{width: 49%; bottom: -35px;}
+                .slick-dots li { margin: 0 3px;}
+                .slick-dots li button:hover:before, .slick-dots li button:focus:before{color:#00b9ff;}
+                .slick-dots li.slick-active button:before{color:#00b9ff;    font-size: 11px;}
+                .slick-dots li button:before{   font-size: 11px;}
+            }
+        }
+    }
+    @media screen and (max-width: 1100px) {
+        .third-block{
+            .third-wrap{
+                .third-align{
+                    .slider{
+                        .slide{
+                            .img-block{padding-left:0;
+                                .img{
+                                    .coma{width: 75px; height: 75px;     right: 14%;}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 900px) {
+        .third-block{
+            .third-wrap{
+                .third-align{
+                    .slider{
+                        .slide{
+                            .img-block{
+                                .img{
+                                    .coma{width: 50px; height: 50px;     right: 14%;}
+                                }
+                            }
+                            .text-block{ max-width: none; width: 50%;
+                                h3{font:300 30px/37px 'Opensans';
+                                    b{font:700 30px/37px 'Opensans';}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 540px) {
+        .third-block{
+            .third-wrap{
+                .third-align{
+                    .slider{
+                        .slide{
+                            .img-block{     width: 100%;    padding: 20px 20% 0;
+                                .img{
+                                    .coma{width: 40px; height: 40px;     right: 8%;}
+                                }
+                            }
+                            .text-block{  width: 100%; text-align: center; padding-top: 10px;  }
+                        }
+                    }
+                    .slick-dots{width: 100%;}
+                }
+            }
+        }
+    }
+     @media screen and (max-width: 480px) {
+        .third-block{
+            .third-wrap{     height: 529px;
+                .third-align{
+                    .slider{
+                        .slide{
+                            .text-block{
+                                h3{font:300 20px/27px 'Opensans';
+                                    b{font:700 20px/27px 'Opensans';}
+                                }
+                                p{font:300 14px/19px 'Opensans';  color: #3d4148;
+                                    span{font:600 14px/19px 'Opensans';}
+                                }
+                            }
                         }
                     }
                 }
@@ -45,13 +151,48 @@ a.button{font:600 14px/14px 'Opensans'; display:inline-block; color:#fff; backgr
 /*four-block*/
     .four-block{
         .four-wrap{
-            .four-align{position: relative;     padding: 96px 0 188px 0;
-                h3{font:300 46px/57px 'Opensans';  color: #3d4148; max-width: 491px; width: 100%;     padding-bottom: 17px;
+            .four-align{position: relative;     padding: 96px 0 188px 0; width: 100%;
+                .txt{ max-width: 491px; width: 100%;  float:left;}
+                h3{font:300 46px/57px 'Opensans';  color: #3d4148;    padding-bottom: 17px;
                     b{font:700 46px/57px 'Opensans';}
                 }
                 p{font:300 18px/25px 'Opensans';  color: #3d4148;}
-                .img{position: absolute;bottom: 0; right:30px;}
+                .img{position: relative;bottom: 0; right:30px; float:left; width: calc(100% - 491px);}
                 a{margin-top: 38px; width: 173px;}
+            }
+        }
+    }
+    @media screen and (max-width: 1100px) {
+         .four-block{
+            .four-wrap{
+                .four-align{
+                    .img{ right:0;}
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 900px) {
+         .four-block{
+            .four-wrap{
+                .four-align{
+                    .txt{max-width: none;float:none; text-align: center;}
+                    h3{font:300 30px/37px 'Opensans';
+                        b{font:700 30px/37px 'Opensans';}
+                    }
+                    .img{ width:100%; float:none; text-align: center;}
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 480px) {
+         .four-block{
+            .four-wrap{
+                .four-align{    padding: 25px 0 25px 0;
+                    h3{font:300 20px/27px 'Opensans';
+                        b{font:700 20px/27px 'Opensans';}
+                    }
+                    p{font:300 14px/19px 'Opensans'; }
+                }
             }
         }
     }
