@@ -1,0 +1,44 @@
+/*header*/
+.grey_btn{height: 32px;line-height: 1;padding: 0 10px;color: white;font-weight: 400;border-radius: 3px;
+  background-color: rgb(118, 130, 153);text-decoration: none;text-align: center;display: inline-block;    padding: 7px 14px;transition:background-color ease .2s;
+    span{display: inline-block;padding: 0 1px;vertical-align: middle;}
+    &:hover{background-color: #8998b3;}
+}
+.blue_btn{ @extend .grey_btn;background-color: #194870;
+    span{display: inline-block;padding: 0 1px;vertical-align: middle;}
+    &:hover{background-color: #1e588a;}
+}
+.regist_user{text-decoration: none;color: #2574b8;
+    span{display: inline-block;padding: 0 1px;vertical-align: middle;}
+    .icon-img{position: relative;height: 26px;width: 26px;border-radius: 50%;overflow: hidden;
+        img{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);max-width: none;}
+    }
+}
+header{background-color: #fff;
+    .menu-mobile{display: none;}
+    .logo{position: absolute;top: 50%;left: 15px;transform: translateY(-50%);}
+    .navigation{float: right;
+        .navigation-wrap{display: table;width: 100%;min-height: 60px;font-size: 13px;
+            .item-wrap{display: table-cell;vertical-align: middle;}
+            .item{display: table-cell;vertical-align: middle;padding: 0 11px;
+
+                &:hover,&.active{
+                    a span:after{width: 100%;}
+                }
+                a{text-decoration: none;text-transform: uppercase;color: #3d4148;font-weight: 600;padding: 0 5px;display: inline-block;position: relative;
+                    span{position: relative;}
+                    span:after{transform: translateX(-50%);position: absolute;bottom:-6px;left: 50%;width: 0;height: 2px;background-color: #00b9ff;content: '';transition:all ease .2s;}
+                }
+            }
+            .item-button{display: table-cell;vertical-align: middle;padding-left: 10px;
+                //&:first-child{padding-left: 15px;}
+            }
+            .item-button{
+                .regist{display: none;
+                    &.active{display: block;}
+                }
+            }
+        }
+    }
+}
+/*/header*/
