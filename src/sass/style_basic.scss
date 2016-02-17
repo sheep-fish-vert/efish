@@ -14,7 +14,7 @@
 /* base styles*/
 *,*:before, *:after{box-sizing:border-box;outline:none;}
 html{height:100%;}
-body{min-height:100%;width:100%;font-family:'OpenSans';background:#fff;color:#3d3d3d;position:relative;font-size: 16px;line-height: 1;}
+body{min-height:100%;width:100%;font-family:'OpenSans';background:#fff;color:#3d3d3d;position:relative;font-size: 16px;line-height: 1;min-width: 320px;}
 img{vertical-align:bottom;border:0;max-width:100%;}
 
 /* /base styles */
@@ -27,8 +27,8 @@ img{vertical-align:bottom;border:0;max-width:100%;}
 /* /wraps styling*/
 
 
-.footer_placeholder{height: 200px;}
-.footer{position:absolute;bottom:0;left:0;width:100%;z-index:2;overflow:hidden;}
+// .footer_placeholder{height: 200px;}
+// .footer{position:absolute;bottom:0;left:0;width:100%;z-index:2;overflow:hidden;}
 
 ::-webkit-input-placeholder {color:#212121;}
 :-moz-placeholder {color:#212121;}
