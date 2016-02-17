@@ -1,0 +1,52 @@
+a.button{font:600 14px/14px 'Opensans'; display:inline-block; color:#fff; background-color: #768299; border-radius: 2px; text-transform: uppercase; text-align: center; width:186px; height: 46px; text-decoration: none;
+    &:hover{background-color: #8997b3;}
+}
+/*second-block*/
+    .second-block{
+        .second-wrap{
+            .second-align{ text-align: center;
+                h2{font:300 46px/46px 'Opensans';  color: #3d4148;
+                    b{font:700 46px/46px 'Opensans';}
+                }
+                p{font:300 18px/18px 'Opensans';  color: #3d4148;}
+            }
+        }
+    }
+/*END second-block*/
+/*third-block*/
+    .third-block{
+        .third-wrap{ background-image: url(../images/bg-2.jpg); background-position: center center; background-repeat: no-repeat; height: 580px;
+            .third-align{
+                .slider{
+                    .slide{ width:100%;
+                        .img-block{float: left; width: 50%;position: relative;
+                            .img{position: relative;
+                                .coma{background-image: url(../images/coma.png);background-position: center center; background-repeat: no-repeat; height: 92px; width: 92px; top:50px; right:50px; position: absolute; }
+                            }
+                        }
+                        .text-block{float:left;width: 50%;
+                            h3{font:300 46px/46px 'Opensans';  color: #3d4148;
+                                b{font:700 46px/46px 'Opensans';}
+                            }
+                            p{font:300 18px/18px 'Opensans';  color: #3d4148;}
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+/*END third-block*/
+/*four-block*/
+    .four-block{
+        .four-wrap{
+            .four-align{position: relative;
+                h3{font:300 46px/46px 'Opensans';  color: #3d4148;
+                    b{font:700 46px/46px 'Opensans';}
+                }
+                p{font:300 18px/18px 'Opensans';  color: #3d4148;}
+                .img{position: absolute;bottom: 0; right:0;}
+            }
+        }
+    }
+/*END four-block*/
