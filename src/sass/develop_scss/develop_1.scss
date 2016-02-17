@@ -2,7 +2,7 @@
 
     .top-block{background-image:url(../images/paralax-background.jpg);background-position: center top;position: relative;
 
-        .paralax-background{position: absolute;top:0;right:0;bottom:0;left:0;display: none;
+        .paralax-background{position: absolute;top:0;right:0;bottom:0;left:0;text-align: center;
             &>div{position: absolute;right: 0;left: 0;}
         }
 
