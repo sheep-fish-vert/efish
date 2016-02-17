@@ -49,8 +49,25 @@
 @media screen and (max-width: 767px){
 
 }
-@media screen and (max-width: 666px){
-
+@media screen and (max-width: 640px){
+    /*footer*/
+    .footer{padding-bottom: 15px;
+        .footer-row{
+            &:first-child{padding-bottom: 10px;}
+        }
+        .footer-logo{float: none;display: block;text-align: center;}
+        .footer-social{float: none;text-align: center;padding-top: 20px;
+            ul{display: inline-block;}
+        }
+        .footer-nav{float: none;padding-top: 7px;
+            li{display: block;padding: 0;text-align: center;
+                a{padding: 3px 15px !important;}
+            }
+        }
+        .footer-btn{float: none;text-align: center;padding-top: 10px;
+        }
+        .copyright{padding-top: 15px;color: #4e515b;text-align: center;}
+    }
 }
 @media screen and (max-width: 479px){
     /*header*/
