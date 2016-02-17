@@ -1,0 +1,17 @@
+/* top-block */
+
+    .top-block{background-image:url(../images/paralax-background.jpg);background-position: center top;position: relative;
+
+        .paralax-background{position: absolute;top:0;right:0;bottom:0;left:0;display: none;
+            &>div{position: absolute;right: 0;left: 0;}
+        }
+
+        .top-block-content{max-width: 500px;color:#fff;}
+        .top-block-title{font-size: 46px;font-weight: 300;margin-bottom: 16px;
+            b{font-weight: 700;}
+        }
+        .top-block-text{font-family:"Myriad Pro", sans-serif;font-size: 18px;margin-bottom: 35px;}
+        .grey-bth{}
+    }
+
+/* /top-block */
