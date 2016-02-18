@@ -29,13 +29,13 @@
         .blue_btn{height: 46px;line-height: 46px;text-transform: uppercase;padding: 0 4px;max-width: 220px;width: 100%;box-shadow:0 5px 10px 0 rgba(5,6,6,.2);}
 
         .next-section-button{position: absolute;width: 60px;height: 60px;background-color:#fff;border-radius: 50%;cursor:pointer;bottom:-30px;left: calc(50% - 30px);z-index: 2;
-            span{display: block;position: absolute;top:50%;left:50%;animation-name: arrowAnim;animation-duration: 750ms;animation-iteration-count: infinite;animation-timing-function: linear;
+            span{display: block;position: absolute;top:50%;left:50%;/*animation-name: arrowAnim;animation-duration: 750ms;animation-iteration-count: infinite;animation-timing-function: linear;*/
                 &:before, &:after{content: '';display:block;position:absolute;width: 14px;height: 1px;top:0;background-color:#a8adbb;transition:background-color 300ms ease;}
                 &:before{left:calc(50% - 12px);transform-origin:50% 50%;transform:rotate(45deg);}
                 &:after{left:calc(50% - 2px);transform-origin:50% 50%;transform:rotate(-45deg);}
             }
             &:hover{
-                span{animation-play-state:paused;
+                span{/*animation-play-state:paused;*/
                     &:before, &:after{background-color:#009bff;}
                 }
             }
@@ -58,16 +58,16 @@
                     &:before{content: '';display: block;position: absolute;z-index: 0;}
                 }
                 .blue-block-graf{
-                    &:before{background-image:url(../images/graf-img-anim.png);background-position:left bottom;width: 67px;top:100%;bottom: 0;left:0;animation-name: grafAnim;animation-duration: 2000ms;animation-iteration-count: infinite;animation-timing-function: linear;}
+                    &:before{background-image:url(../images/graf-img-anim.png);background-position:left bottom;width: 67px;top:0;bottom: 0;left:0;/*animation-name: grafAnim;animation-duration: 2000ms;animation-iteration-count: infinite;animation-timing-function: linear;*/}/* top:100%; */
                 }
                 .blue-block-cart{
-                    &:before{width: 38px;height: 38px;border:2px solid #184770;border-radius: 2px;top:0;left: calc(50% - 12px);animation-name: cartAnim;animation-duration: 1000ms;animation-iteration-count: infinite;animation-timing-function: linear;}
+                    &:before{width: 38px;height: 38px;border:2px solid #184770;border-radius: 2px;top:0;left: calc(50% - 12px);/*animation-name: cartAnim;animation-duration: 1000ms;animation-iteration-count: infinite;animation-timing-function: linear;*/}
                 }
                 .blue-block-speed{
-                    &:before{background-image:url(../images/speed-img-anim.png);width: 20px;height: 14px;left:calc(50% - 7px);top:calc(50% - 12px);transform-origin:5px 10px;animation-name: speedAnim;animation-duration: 750ms;animation-iteration-count: infinite;animation-timing-function: linear;}
+                    &:before{background-image:url(../images/speed-img-anim.png);width: 20px;height: 14px;left:calc(50% - 7px);top:calc(50% - 12px);transform-origin:5px 10px;/*animation-name: speedAnim;animation-duration: 750ms;animation-iteration-count: infinite;animation-timing-function: linear;*/}
                 }
                 .blue-block-money{
-                    &:before{background-image:url(../images/money-img-anim.png);width: 63px;height: 63px;left: 0;top: 0;transform-origin:50% 50%;animation-name: moneyAnim;animation-duration: 1500ms;animation-iteration-count: infinite;animation-timing-function: linear;}
+                    &:before{background-image:url(../images/money-img-anim.png);width: 63px;height: 63px;left: 0;top: 0;transform-origin:50% 50%;/*animation-name: moneyAnim;animation-duration: 1500ms;animation-iteration-count: infinite;animation-timing-function: linear;*/}
                 }
             }
             .blue-block-item-text{max-width: 170px;width: 100%;font-size:16px;line-height: 22px;margin: 0 auto;}
