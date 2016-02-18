@@ -6,13 +6,13 @@
         .paralax-background{position: absolute;top:0;right:0;bottom:0;left:0;text-align: center;z-index: 0;overflow: hidden;
             &>div{position: absolute;left: calc(50% - 960px);opacity: 0;width: 1920px;
                 img{position: relative;margin-right:-24%;}
-                &:nth-child(1){transition:transform 300ms ease, opacity 300ms ease 300ms;
+                &:nth-child(1){transition:transform 400ms ease-out, opacity 300ms ease 300ms;
                     img{top:29px;}
                 }
-                &:nth-child(2){transition:transform 300ms ease, opacity 300ms ease 500ms;
+                &:nth-child(2){transition:transform 400ms ease-out, opacity 300ms ease 500ms;
                     img{top: 210px;}
                 }
-                &:nth-child(3){transition:transform 300ms ease, opacity 300ms ease 700ms;
+                &:nth-child(3){transition:transform 400ms  ease-out, opacity 300ms ease 700ms;
                     img{top:112px;}
                 }
             }
