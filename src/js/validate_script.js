@@ -18,7 +18,7 @@ function validate(form, options){
         $form.validate({
             errorClass : 'errorText',
             focusCleanup : true,
-            focusInvalid : false,
+            focusInvalid : true,
             invalidHandler: function(event, validator) {
                 if(typeof(setings.errorFunction) === 'function'){
                     setings.errorFunction(form);
@@ -212,6 +212,7 @@ function fancyboxForm(){
 
 $(document).ready(function(){
    validate('#call-popup .contact-form', {submitFunction:validationCall});
+   validate('#call-popup-disable .contact-form', {submitFunction:validationCall});
    Maskedinput();
    fancyboxForm();
 });

@@ -120,6 +120,15 @@ function headeButer(menuMobile,toggleMenu){
 
 /* DOCUMENT READY  */
 $(document).ready(function() {
+    $('.fancybox').fancybox({
+        autoResize:true,
+        autoSize:true,
+        'closeBtn' : true,
+        fitToView:true,
+        padding:'0'
+    });
+
+
     headeButer($('.menu-mobile'),$('.item-wrap'));
     //oneHeightItems();
     $('.footer_placeholder').height($('.footer').outerHeight());
